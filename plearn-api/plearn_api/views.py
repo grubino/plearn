@@ -1,7 +1,7 @@
 """ Plearn services.
 """
 from cornice import Service
-from request_validation import *
+from plearn_api.request_validation import *
 
 login = Service(name='login', path='/login', description="Get a token")
 
